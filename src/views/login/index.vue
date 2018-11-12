@@ -47,16 +47,5 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.login {
-  display: flex;
-  justify-content: center;
-  background-color: red;
-  &-box {
-    width: 320px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
+<style lang="scss" scoped src="./style.scss">
 </style>
