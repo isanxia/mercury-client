@@ -1,34 +1,38 @@
-# mercury-client
+# mercury-client golang 问答系统前端客户端
 
-## Project setup
+### nodejs 安装
+
+[下载 nodejs 安装包](https://nodejs.org/en/download/)
+
+### 安装项目依赖
+
 ```
-npm install
+npm i
 ```
 
-### Compiles and hot-reloads for development
+### 运行项目
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包
+
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### vscode 配置
 
-### Lints and fixes files
-```
-npm run lint
-```
+插件：
 
-### Run your unit tests
-```
-npm run test:unit
-```
+- EditorConfig for VSCode
+- Auto Rename Tag
+- Vetur
+- Prettoer-Code formatter
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```json
+"editor.formatOnSave": true,
+"vetur.validation.template": false,
+"vetur.format.defaultFormatter.html": "prettyhtml"
+```
