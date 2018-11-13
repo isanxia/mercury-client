@@ -1,16 +1,16 @@
 <template>
   <div class="login">
     <div class="login-box">
-      <Card title="登录">
+      <Card title="注册">
         <Form>
           <FormItem prop="username">
             <Input type="text" v-model="form.user" placeholder="Username">
               <Icon type="ios-person-outline" slot="prepend"></Icon>
             </Input>
           </FormItem>
-          <FormItem prop="username">
+          <FormItem prop="email">
             <Input type="text" v-model="form.email" placeholder="Email">
-              <Icon type="ios-person-outline" slot="prepend"></Icon>
+              <Icon type="ios-mail-outline" slot="prepend"></Icon>
             </Input>
           </FormItem>
           <FormItem prop="password">
