@@ -40,9 +40,7 @@
   "code": 0,
   "success": true,
   "message": "ok",
-  "data": {
-    "token": "sdfasdfasfdasfdasdfasfasdfasfd"
-  }
+  "data": "34545325325"
 }
 ```
 
