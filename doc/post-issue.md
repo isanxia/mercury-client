@@ -30,7 +30,7 @@
 属性名 | 数据类型 | 示例值 | 描述
 -------|----------|----------|--------
  code | number | 0 |  自定义状态码
- success | boolean | true | 是否成功
+ success | boolean | true | 是否成功
  message | string | ok | 提示文本
  data | string | 1000000 | 问题id
 
