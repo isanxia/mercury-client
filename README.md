@@ -1,6 +1,6 @@
 # mercury-client golang 问答系统前端客户端
 
-## [接口文档](./doc)
+## [接口文档](./doc/README.md)
 
 ### nodejs 安装
 
