@@ -31,7 +31,9 @@
  code | number | 0 | 自定义状态码
  success | boolean | true | 是否成功
  message | string | ok | 提示文本
- token | string | dgasdga4323dss | token
+ data | object |  | 业务数据
+ - accessToken | string | dgasdga4323dss | 鉴权token
+ - refreshToken | string | dgasdga4323dss | 刷新token
 
 - 成功示例
 ``` json
@@ -39,7 +41,10 @@
   "code": 0,
   "success": true,
   "message": "ok",
-  "token": "sdfasdfasfdasfdasdfasfasdfasfd"
+  "data": {
+    "accessToken": "gdsgdsgfdsfgsdfgsdfgdfgdsfgsdgsdg",
+    "refreshToken": "gdsgdsgfdsfgsdfgsdfgsdfgsdfgsdgsdg"
+  }
 }
 ```
 
