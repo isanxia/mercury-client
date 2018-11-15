@@ -47,10 +47,10 @@
   "success": true,
   "message": "ok",
   "data": {
-    "id": "532454235",
-    "title": "fgdfgssdgsd",
-    "content": "53245hdfghdfghdf4235",
-    "createAt": 6554568877,
+    "id": "532454235",
+    "title": "fgdfgssdgsd",
+    "content": "53245hdfghdfghdf4235",
+    "createAt": 6554568877,
     "answers": [
       {
         "id": "4363566345",
