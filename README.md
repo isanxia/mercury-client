@@ -1,5 +1,7 @@
 # mercury-client golang 问答系统前端客户端
 
+## [接口文档](./doc)
+
 ### nodejs 安装
 
 [下载 nodejs 安装包](https://nodejs.org/en/download/)
@@ -36,3 +38,8 @@ npm run build
 "vetur.validation.template": false,
 "vetur.format.defaultFormatter.html": "prettyhtml"
 ```
+
+### 生产部署
+
+- 运行命令``` npm run build ```
+- 发布dist目录下的所有静态文件到web服务器（如nginx站点目录）
