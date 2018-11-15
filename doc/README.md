@@ -10,4 +10,5 @@
 ## 所有接口
 
 - [获取token](./token.md)
-- [获取token](./token.md)
+- [发布问题](./post-issue.md)
+- [问题详情](./get-issue.md)

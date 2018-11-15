@@ -1,6 +1,6 @@
 # 获取token
 
-### POST /api/token
+### POST /api/issue
 
 ## 请求头
 
