@@ -9,17 +9,15 @@
  Content-Type | string | yes | application/json;charset=UTF-8 | 数据格式
  Authorization | string | yes | Bearer dgasdga4323dss | token
 
-## 请求参数 -object
+## 请求参数
 
 属性名 | 数据类型 | 是否必传 | 示例值 | 描述
 -------|----------|----------|--------|------
  id | string | yes | fasfasf |  问题id
 
  - 示例
- ``` json
- {
-   "id": "10000000"
- }
+ ```
+ /api/issue/234234214
  ```
 
 
