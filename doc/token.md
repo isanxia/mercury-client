@@ -10,7 +10,7 @@
 
 ## 请求参数 -object
 
-属性名 | 数据类型 | 是否必传 | 示例值 | 描述
+属性名 | 数据类型 | 是否必传 | 示例值 | 描述
 -------|----------|----------|--------|------
  username | string | yes | fasfasf |  用户名
  password | string | yes | fasfasf |  密码
