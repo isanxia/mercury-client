@@ -31,14 +31,14 @@
  success | boolean | true | 是否成功
  message | string | ok | 提示文本
  data | object | 1000000 | 业务数据
- - id | string | 1000000 | 问题id
- - title | string | 1000000 | 问题标题
- - content | string | 1000000 | 问题内容
- - createAt | number | 1000000 | 提问时间
- - answers | [object] | 1000000 | 回答列表
- - - id | number | 523452345 | 回答id
- - - time | number | 523452345 | 回答时间
- - - content | number | 523452345 | 回答内容
+ -id | string | 1000000 | 问题id
+ -title | string | 1000000 | 问题标题
+ -content | string | 1000000 | 问题内容
+ -createAt | number | 1000000 | 提问时间
+ -answers | [object] | 1000000 | 回答列表
+ --id | number | 523452345 | 回答id
+ --time | number | 523452345 | 回答时间
+ --content | number | 523452345 | 回答内容
 
 - 成功示例
 ``` json
