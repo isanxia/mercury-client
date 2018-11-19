@@ -9,7 +9,6 @@
             <Radio :label="2">女</Radio>
             </RadioGroup>
           </FormItem>
-
           <FormItem prop="nickname">
             <Input type="text" v-model="form.nickname" placeholder="昵称">
               <Icon type="ios-chatbubbles-outline" slot="prepend"></Icon>
