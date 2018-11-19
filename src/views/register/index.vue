@@ -59,8 +59,12 @@ export default {
     };
   },
   methods: {
-    submit() {
-      console.log("调用注册接口");
+    async submit() {
+      let res = await this.$http.post("/api/user/register", this.form);
+      if (res.code === 0) {
+        this.$Message.success("注册成功");
+        this.$router.push("/login");
+      }
     }
   }
 };

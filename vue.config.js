@@ -8,7 +8,7 @@ module.exports = {
     proxy: {
         '/api': {
             // 目标 API 地址
-            target: 'http://localhost:9090/',
+            target: 'http://localhost:9090',
             // 将主机标头的原点更改为目标URL
             changeOrigin: false
         }
