@@ -3,14 +3,25 @@
     <div class="login-box">
       <Card title="注册">
         <Form>
-          <FormItem prop="username">
-            <Input type="text" v-model="form.user" placeholder="Username">
-              <Icon type="ios-person-outline" slot="prepend"></Icon>
+          <FormItem prop="sex">
+            <RadioGroup v-model="form.sex">
+            <Radio :label="1">男</Radio>
+            <Radio :label="2">女</Radio>
+            </RadioGroup>
+          </FormItem>
+          <FormItem prop="nickname">
+            <Input type="text" v-model="form.nickname" placeholder="昵称">
+              <Icon type="ios-chatbubbles-outline" slot="prepend"></Icon>
             </Input>
           </FormItem>
           <FormItem prop="email">
             <Input type="text" v-model="form.email" placeholder="Email">
               <Icon type="ios-mail-outline" slot="prepend"></Icon>
+            </Input>
+          </FormItem>
+          <FormItem prop="user">
+            <Input type="text" v-model="form.user" placeholder="Username">
+              <Icon type="ios-person-outline" slot="prepend"></Icon>
             </Input>
           </FormItem>
           <FormItem prop="password">
@@ -40,14 +51,20 @@ export default {
     return {
       form: {
         user: "",
+        nickname: "",
+        sex: 1,
         email: "",
         password: ""
       }
     };
   },
   methods: {
-    submit() {
-      console.log("调用注册接口");
+    async submit() {
+      let res = await this.$http.post("/api/user/register", this.form);
+      if (res.code === 0) {
+        this.$Message.success("注册成功");
+        this.$router.push("/login");
+      }
     }
   }
 };
