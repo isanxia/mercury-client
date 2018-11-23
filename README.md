@@ -35,11 +35,10 @@ npm run build
 
 ```json
 "editor.formatOnSave": true,
-"vetur.validation.template": false,
-"vetur.format.defaultFormatter.html": "prettyhtml"
+"vetur.validation.template": false
 ```
 
 ### 生产部署
 
-- 运行命令``` npm run build ```
-- 发布dist目录下的所有静态文件到web服务器（如nginx站点目录）
+- 运行命令`npm run build`
+- 发布 dist 目录下的所有静态文件到 web 服务器（如 nginx 站点目录）
