@@ -4,6 +4,7 @@ import Layout from "./components/layout";
 import Home from "./views/home";
 import Login from "./views/login";
 import Register from "./views/register";
+import Ask from "./views/ask";
 
 Vue.use(Router);
 
@@ -12,7 +13,10 @@ export default new Router({
     {
       path: "/",
       component: Layout,
-      children: [{ path: "", name: "home", component: Home }]
+      children: [
+        { path: "", name: "home", component: Home },
+        { path: "ask", name: "ask", component: Ask }
+      ]
     },
     {
       path: "/login",
